@@ -11,10 +11,28 @@
             text-align: center;
             background-color: bisque;
         }
+         .portfolio-item {
+                flex-basis: calc(33.33% - 10px); /* Set the width of each portfolio item to 1/3 of the container minus the gap */
+                /* Add any CSS styles you want to apply to each portfolio item */
+              }
+               .portfolio-item img {
+                width: 100%;
+                height: auto;
+              }
    </style>
 
 </head>
 <body style="background-color: beige  ;">
+	 <div class="main-menu" id="main-menu">
+          <p style="color: #ff0000; padding-right: 500px; font-weight: bolder;">Phoebe</p>
+            <a href="#home">Home&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#services">Services&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#skills">Skills&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#portfolio">Portfolio&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#contact">Contact</a>
+
+
+        </div>
 	<table border="0" style="margin-left: 100px; margin-right: 100px;">
 		<tr>
 			<td>
@@ -48,7 +66,11 @@
 <div style="background-color: bisque;display: flex; justify-content: space-between;padding: 10px;">
 
 	<div style ="flex: 1 1 0%; display: flex; align-items: center; flex-direction: column; background-color: #97bfe9; margin-right: 10px; border-radius: 15px;text-align: center;margin-left: 100px;">
+<<<<<<< HEAD
 		<img src="images\plane.png" width="50px" height="50px" style="float: left;margin-right: 10px;margin-top: 10px;">
+=======
+		<img src="icons\plane1.jpeg" width="50px" height="50px" style="float: left;margin-right: 10px;margin-top: 10px;">
+>>>>>>> 37f5c3b32b5a730b71f534bb1abb85529e9b8862
 		<h1 style="font-size:20px">Flying commercial planes</h1>
 		  <p>Adept at coordinating flight activities and test schedules to support safe and effective operations.knowledgeable in adjusting plans based on changing mechanical,air and ground conditions.
 		  </p>
@@ -128,6 +150,62 @@
 	<P><li>Distinguished graduate</P></li>
 	<p><li>Outstanding second lieutenant.</p></li>
 </div>
+
+
+<div id="portfolio" style="margin-top: 0px; padding-top: 0px; text-align: center; font-size: 60px; background-color: #ffffff;;"><p style="margin: 0px; padding-top: 50px; padding-bottom: 0%;">PORTFOLIO</p></div>
+
+  <div id="portfolio" class="portfolio-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <div class="portfolio-item">
+      <img src="images\portfolio\pheebs.jpg"  alt="Portfolio Image 1">
+    </div>
+    <div class="portfolio-item">
+      <img src="images\portfolio\phoebe.jpg"  alt="Portfolio Image 2">
+    </div>
+    <div class="portfolio-item">
+      <img src="images\portfolio\profile.jpg" alt="Portfolio Image 3">
+    </div>
+    
+  </div> 
+
+   <div id="contact" style="margin-top: 0px; padding-top: 0px; text-align: left; font-size: 60px; background-color: #8d3f3f;"><p style="margin: 0px; padding-top: 50px; padding-bottom: 0%; margin-left: 40px; padding-bottom: 30px;">CONTACT WITH ME</p>
+  </div>
+  <div style="display: flex; padding-left: 60px; padding-top: 5px; padding-right: 60px; padding-bottom: 5px; background-color: #8d3f3f;">
+    <div style=" float: left; flex: 70%; ">
+      <div style="background-color: #d1b8b8; border-radius: 5px; height: 10px; margin-left: 0px; width: 30%;"></div>
+      <br><br>
+      <div style="padding-left: 80px; font-size: 30px; overflow: auto;">
+        <img src="icons\mail.png" width="50px" height="50px" style="float: left; margin-right: 10px; margin-top: 10px;" alt="Portfolio Image 6">
+        <p style="margin-top: 20px; color: #ffffff;">phoebenyakambi@gmail.com</p>
+      </div>
+      <div style="padding-left: 80px; font-size: 30px; overflow: auto;">
+        <img src="icons\phone.png" width="50px" height="50px" style="float: left; margin-right: 10px; margin-top: 10px;" alt="Portfolio Image 6">
+        <p style="margin-top: 20px; color: #ffffff;">+254 723850015</p>
+      </div>
+      <div style="padding-left: 80px; font-size: 30px; overflow: auto;">
+        <img src="icons\instagram.png" width="50px" height="50px" style="float: left; margin-right: 10px; margin-top: 10px;" alt="Portfolio Image 6">
+        <p style="margin-top: 20px; color: #ffffff;">@pheebs</p>
+      </div>
+      <div style="padding-left: 80px; font-size: 30px; overflow: auto;">
+        <img src="icons\youtube.png" width="50px" height="50px" style="float: left; margin-right: 10px; margin-top: 10px;" alt="Portfolio Image 6">
+        <p style="margin-top: 20px; color: #ffffff;">@pheebs</p>
+      </div>
+      <div style="padding-left: 80px; font-size: 30px; overflow: auto;">
+        <img src="icons\location.png" width="50px" height="50px" style="float: left; margin-right: 10px; margin-top: 10px;" alt="Portfolio Image 6">
+        <p style="margin-top: 20px; color: #ffffff;">Nairobi, Kenya.</p>
+      </div>
+    </div>
+
+    <div style="flex: 30%; padding: 40px; ">
+        <img src="images\washy4.png" height="100%" width="100%" style="border-radius: 50%; padding-right: 40px; align-items: center;">
+    </div>
+    
+    </div>
+
+
+
+        <h1 style="text-align: center; color: #ff0000;">QATAR AIRWAYS FLYING ASSOCIATION</h1>
+        <p style="text-align: center; font-weight: bold;">&copy2024 - phoebenyakambi</p>
+
 
 
 
